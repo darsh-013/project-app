@@ -1,38 +1,103 @@
 .App {
+  width: 80%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Navbar */
+.navbar{
+  position: relative;
+}
+.nav-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item{
+  display: flex;  
+  gap: 20px;
+  flex-direction: column;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+  letter-spacing: 1px;
+ 
 }
+
+.nav-link{
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.icons{
+  gap: 20px;
+}
+
+/* Card */
+
+.offer{
+  height: 180px;
+  background-color:  #D9d9d9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer1{
+  background-color: #D9d9d9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-color{
+  background-color: #D9d9d9;
+}
+.icon1{
+  position: relative;
+  width:35%;
+  height: 300px;
+  background-color:#D9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  float: left;
+  }
+.icon{
+  position: relative;
+  background-color:#D9d9d9;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  float: left;
+}
+.icon2{
+  position: relative;
+  justify-content: flex-start;
+}
+
+
+
+
+/* Footer */
+.footer{
+  width: 100%;
+position: absolute;
+}
+
+.footer-end{
+  color:white;
+}
+
